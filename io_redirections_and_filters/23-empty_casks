@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty \( -type f -o -type d \) -name "*" -o -name ".*" -printf "%f\n"
+find . -mindepth 1 -empty -exec sh -c 'for f; do printf "%s\n" "${f##*/}"; done' sh {} +
