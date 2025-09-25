@@ -1,2 +1,1 @@
-This is a readme file for the shells, I/O, and filters projects.
-
+This is a readme file for the shell scripting assignments on linux
