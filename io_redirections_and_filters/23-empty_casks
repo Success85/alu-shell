@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -empty -exec sh -c 'for f; do printf "%s\n" "${f##*/}"; done' sh {} +
+find . -mindepth 1 -empty -printf "%f\n"
