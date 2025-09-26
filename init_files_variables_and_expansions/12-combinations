@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v "bin" /etc/passwd
+printf '%s\n' {a..z} {a..z} | grep -v oo
