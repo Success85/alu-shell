@@ -2,5 +2,11 @@
 # This script displays the text "Best School" 10 times
 for i in {1..10}
 do
-  echo "Best School"
+  echo "Best School $i"
 done
+
+#for _ in {1..10}
+#do
+ # echo "Hello"
+#done
+
