@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Displays all lines that containing the word bash
+
+ps aux | grep bash
