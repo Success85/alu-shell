@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Displays PID and process name for bash processes running 
 cat /proc/*/comm 2>/dev/null | grep -n bash | while IFS=: read -r pid name; do
     echo "$pid bash"
